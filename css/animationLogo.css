@@ -1,0 +1,22 @@
+@keyframes instaLogo {
+    0% {border-radius: 0%;}
+    25% {border-radius: 100%;
+        transform: rotate(90deg);
+        translate: 100px;}
+    50% {background-color: blueviolet;
+        transform: rotate(180deg);
+        translate: 300px;}  
+    75% {transform: rotate(270deg);
+        translate: -400px;}
+    100% {translate: 500px;}  
+}
+
+div {
+    margin-top: 20%;
+    margin-left: 40%;
+    width: 100px;
+    height: 100px;
+    animation-name: instaLogo;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
